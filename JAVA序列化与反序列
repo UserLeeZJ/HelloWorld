@@ -1,0 +1,12 @@
+
+ JAVA 学习
+
+序列化与反序列化
+定义:对象转为字节序列的过程或执行反向操作
+作用:存放在硬盘中,或是进程通讯,网络传输
+使用FileInputStream类和FileOutStream类
+
+问题,序列化JDK版本和反序列化的版本不同
+解决方法:生成版本id
+ private static final long serialVersionUID = 1L;
+ 
